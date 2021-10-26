@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'TT Lakes Compressed Bold';
-    src: url('../fonts/TTLakesCompressed-Bold.eot');
-    src: url('../fonts/TTLakesCompressed-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/TTLakesCompressed-Bold.woff') format('woff'),
-    url('../fonts/TTLakesCompressed-Bold.ttf') format('truetype');
+    font-family: 'TT Lakes Bold';
+    src: url('../fonts/TTLakes-Bold.eot');
+    src: url('../fonts/TTLakes-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TTLakes-Bold.woff') format('woff'),
+    url('../fonts/TTLakes-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -152,7 +152,7 @@ li {
     display: flex;
 }
 .title-left__text {
-    font-family: TT Lakes Compressed Bold, serif;
+    font-family: TT Lakes Bold, serif;
     font-size: 28px;
     line-height: 40px;
     letter-spacing: -0.6px;
@@ -315,7 +315,7 @@ li {
     }
     .general__text-group2 {
         display: block;
-        font-family: "TT Lakes Regular", serif;
+        font-family: TT Lakes Regular, serif;
         font-size: 14px;
         line-height: 18px;
         letter-spacing: 0.2px;
@@ -353,7 +353,7 @@ li {
     }
     .general__text-group3 {
         display: block;
-        font-family: "TT Lakes Regular", serif;
+        font-family: TT Lakes Regular, serif;
         font-size: 14px;
         line-height: 18px;
         letter-spacing: 0.2px;

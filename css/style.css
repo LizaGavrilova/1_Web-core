@@ -38,7 +38,20 @@ body {
     display: flex;
     flex-direction: column;
     min-width: 320px;
+    max-width: 1440px;
     background: #FFFFFF;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+.slide-menu > ul {
+    display: flex;
+    align-items: baseline;
+    margin-left: 0;
+    padding-left: 0;
 }
 .header__wrapper {
     display: flex;
@@ -215,29 +228,31 @@ body {
     line-height: 24px;
     letter-spacing: -0.2px;
     white-space: nowrap;
-    margin-right: 20px;
+    margin: 24px 20px 0 20px;
+    padding: 6px 10px 6px 10px;
 }
-.slide-menu__button_active {
+.slide-menu__button:hover, .slide-menu__button:focus, .slide-menu__button_active {
     background-color: #FFFFFF;
+    box-sizing: border-box;
     border: 2px solid #B8FFEC;
     border-radius: 6px;
-    margin: 24px 20px 0 16px;
+    margin: 24px 20px 0 20px;
     padding: 4px 8px 4px 8px;
 }
 @media (min-width: 768px){
     .slide-menu__button {
-        margin-right: 24px;
+        margin: 32px 24px 0 24px;
     }
-    .slide-menu__button_active {
-        margin: 32px 16px 0 24px;
+    .slide-menu__button:hover, .slide-menu__button:focus {
+        margin: 32px 24px 0 24px;
     }
 }
 @media (min-width: 1120px){
     .slide-menu__button {
-        margin-right: 24px;
+        margin: 8px 24px 0 24px;
     }
-    .slide-menu__button_active {
-        margin: 8px 19px 0 32px;
+    .slide-menu__button:hover, .slide-menu__button:focus {
+        margin: 8px 24px 0 24px;
     }
 }
 
@@ -251,7 +266,7 @@ body {
     margin: 24px 16px 0 16px;
 }
 .general__text-group1 {
-    font-family: TT Lakes Condensed Medium, serif;
+    font-family: TT Lakes Regular, serif;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.2px;
@@ -300,7 +315,7 @@ body {
     }
     .general__text-group2 {
         display: block;
-        font-family: TT Lakes Condensed Medium, serif;
+        font-family: "TT Lakes Regular", serif;
         font-size: 14px;
         line-height: 18px;
         letter-spacing: 0.2px;
@@ -338,7 +353,7 @@ body {
     }
     .general__text-group3 {
         display: block;
-        font-family: TT Lakes Condensed Medium, serif;
+        font-family: "TT Lakes Regular", serif;
         font-size: 14px;
         line-height: 18px;
         letter-spacing: 0.2px;

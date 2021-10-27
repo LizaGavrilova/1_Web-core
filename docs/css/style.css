@@ -34,6 +34,15 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'TT Lakes Demi';
+    src: url('../fonts/TTLakes-DemiBold.eot');
+    src: url('../fonts/TTLakes-DemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/TTLakes-DemiBold.woff') format('woff'),
+    url('../fonts/TTLakes-DemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -223,7 +232,8 @@ li {
     display: none;
 }
 .slide-menu__button {
-    font-family: TT Lakes Light, serif;
+    font-family: TT Lakes Condensed Medium, serif;
+    color: #7E7E82;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
@@ -232,6 +242,7 @@ li {
     padding: 6px 10px 6px 10px;
 }
 .slide-menu__button:hover, .slide-menu__button:focus, .slide-menu__button_active {
+    color: #7E7E82;
     background-color: #FFFFFF;
     box-sizing: border-box;
     border: 2px solid #B8FFEC;
@@ -239,6 +250,12 @@ li {
     margin: 24px 20px 0 20px;
     padding: 4px 8px 4px 8px;
 }
+.slide-menu__button:active, .slide-menu__button:focus {
+    outline: none !important;
+  }
+  .slide-menu__button::-moz-focus-inner {
+    border: 0 !important;
+  }
 @media (min-width: 768px){
     .slide-menu__button {
         margin: 32px 24px 0 24px;

@@ -95,7 +95,7 @@ li {
     position: absolute;
     left: -24px;
     top: -11px;
-    content: url("/docs/img/highlight.svg");
+    content: url("../img/highlight.svg");
 }
 .list__button:hover {
     filter: opacity(0.5);

@@ -35,7 +35,7 @@ li {
     display: flex;
     flex-direction: column;
     width: 320px;
-    min-height: 1024px;
+    min-height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -98,9 +98,16 @@ li {
     content: url("../img/highlight.svg");
 }
 .list__button:hover {
-    filter: opacity(0.5);
+    color: #7E7E82;
     transition-duration: 0.4s;
 }
+.list__button:hover::before {
+    position: absolute;
+    left: -24px;
+    top: -11px;
+    content: url("../img/highlight.svg");
+}
+
 
 .footer__wrapper {
     display: flex;
